@@ -13,7 +13,7 @@ export class AppComponent {
   showTop:boolean = true;
 
   loadComponent() {
-    this.showTop = false;
+    this.showTop = !this.showTop;
   }
 }
 
